@@ -1,0 +1,1 @@
+print(sum(filter(lambda arr: arr % 2 == 0, list(map(int, str(input()).split(' '))))))
